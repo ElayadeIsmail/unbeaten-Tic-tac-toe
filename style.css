@@ -27,6 +27,9 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.tic-toc.end-game {
+  pointer-events: none;
+}
 .squer {
   cursor: pointer;
   width: 80px;
@@ -46,4 +49,5 @@ body {
   background: #f4f4f4;
   border-radius: 5px;
   margin-top: 10px;
+  margin-left: 20px;
 }
