@@ -26,28 +26,37 @@ body {
 .tic-toc {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-collapse: collapse;
 }
 .tic-toc.end-game {
   pointer-events: none;
 }
 .squer {
   cursor: pointer;
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 90px;
   border: 2px solid #fff;
   text-align: center;
   font-weight: bold;
   font-size: 70px;
+  border-collapse: collapse;
 }
 .end {
   font-size: 1.5em;
   margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .play-again {
-  padding: 8px 15px;
+  padding: 10px 15px;
   border: 0;
   background: #f4f4f4;
   border-radius: 5px;
-  margin-top: 10px;
   margin-left: 20px;
+  cursor: pointer;
+}
+
+.play-again:focus {
+  outline: 0;
 }
